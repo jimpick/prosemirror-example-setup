@@ -1,7 +1,7 @@
 import {wrapItem, blockTypeItem, Dropdown, DropdownSubmenu, joinUpItem, liftItem,
        selectParentNodeItem, undoItem, redoItem, icons, MenuItem} from "@jimpick/prosemirror-menu"
 import {NodeSelection} from "@jimpick/prosemirror-state"
-import {toggleMark} from "prosemirror-commands"
+import {toggleMark} from "@jimpick/prosemirror-commands"
 import {wrapInList} from "@jimpick/prosemirror-schema-list"
 import {TextField, openPrompt} from "./prompt"
 
