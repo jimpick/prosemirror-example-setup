@@ -1,8 +1,8 @@
 import {wrapItem, blockTypeItem, Dropdown, DropdownSubmenu, joinUpItem, liftItem,
        selectParentNodeItem, undoItem, redoItem, icons, MenuItem} from "prosemirror-menu"
-import {NodeSelection} from "prosemirror-state"
+import {NodeSelection} from "@jimpick/prosemirror-state"
 import {toggleMark} from "prosemirror-commands"
-import {wrapInList} from "prosemirror-schema-list"
+import {wrapInList} from "@jimpick/prosemirror-schema-list"
 import {TextField, openPrompt} from "./prompt"
 
 // Helpers to create specific types of items
