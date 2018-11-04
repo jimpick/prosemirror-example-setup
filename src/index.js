@@ -1,9 +1,9 @@
-import {keymap} from "prosemirror-keymap"
+import {keymap} from "@jimpick/prosemirror-keymap"
 import {history} from "@jimpick/prosemirror-history"
 import {baseKeymap} from "@jimpick/prosemirror-commands"
 import {Plugin} from "@jimpick/prosemirror-state"
 import {dropCursor} from "@jimpick/prosemirror-dropcursor"
-import {gapCursor} from "prosemirror-gapcursor"
+import {gapCursor} from "@jimpick/prosemirror-gapcursor"
 import {menuBar} from "@jimpick/prosemirror-menu"
 
 import {buildMenuItems} from "./menu"
