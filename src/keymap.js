@@ -2,7 +2,7 @@ import {wrapIn, setBlockType, chainCommands, toggleMark, exitCode,
         joinUp, joinDown, lift, selectParentNode} from "@jimpick/prosemirror-commands"
 import {wrapInList, splitListItem, liftListItem, sinkListItem} from "@jimpick/prosemirror-schema-list"
 import {undo, redo} from "@jimpick/prosemirror-history"
-import {undoInputRule} from "prosemirror-inputrules"
+import {undoInputRule} from "@jimpick/prosemirror-inputrules"
 
 const mac = typeof navigator != "undefined" ? /Mac/.test(navigator.platform) : false
 
