@@ -1,5 +1,5 @@
 import {keymap} from "prosemirror-keymap"
-import {history} from "prosemirror-history"
+import {history} from "@jimpick/prosemirror-history"
 import {baseKeymap} from "prosemirror-commands"
 import {Plugin} from "@jimpick/prosemirror-state"
 import {dropCursor} from "prosemirror-dropcursor"

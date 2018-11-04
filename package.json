@@ -1,6 +1,6 @@
 {
   "name": "@jimpick/prosemirror-example-setup",
-  "version": "1.0.1-1",
+  "version": "1.0.1-2",
   "description": "An example for how to set up a ProseMirror editor",
   "main": "dist/index.js",
   "module": "src/index.js",
@@ -21,7 +21,7 @@
     "prosemirror-inputrules": "^1.0.0",
     "@jimpick/prosemirror-schema-list": "^1.0.1-1",
     "prosemirror-keymap": "^1.0.0",
-    "prosemirror-history": "^1.0.0",
+    "@jimpick/prosemirror-history": "^1.0.3-1",
     "prosemirror-commands": "^1.0.0",
     "@jimpick/prosemirror-state": "^1.2.2-3",
     "prosemirror-menu": "^1.0.0",
